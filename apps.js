@@ -14,11 +14,11 @@ refresh.addEventListener("click", () => {
 })
 
 function visitPlayGame(){
-    window.location.href = "file:///C:/Users/Extreme/Desktop/Programacion/HangmanGame/hangmanGame.html";
+    window.location.href = "hangmanGame.html";
 }
 
 function visitAddWord(){
-    window.location.href = "file:///C:/Users/Extreme/Desktop/Programacion/HangmanGame/addWord.html";
+    window.location.href = "addWord.html";
 }
 
 
@@ -54,7 +54,7 @@ document.querySelector("#calcular").addEventListener("click", _ => {
 function agregarPalabra(){
     var newWord = document.querySelector("#newWord").value;
     palabras.push(newWord);
-    alert(palabras);
-    return palabras;
+
+    
 
 }
